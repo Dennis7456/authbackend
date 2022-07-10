@@ -1,0 +1,41 @@
+{
+  "name": "authbackend",
+  "version": "1.0.0",
+  "description": "This is the backend section of a full-stack authentication application with react, express, mongodb, heroku and netlify.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "./node_modules/nodemon/bin/nodemon.js index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dennis7456/authbackend.git"
+  },
+  "keywords": [
+    "backend",
+    "full-stack",
+    "authentication",
+    "react",
+    "express",
+    "mongodb",
+    "heroku",
+    "netlify"
+  ],
+  "author": "Dennis Kiplang'at Ng'etich",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dennis7456/authbackend/issues"
+  },
+  "homepage": "https://github.com/Dennis7456/authbackend#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.20.0",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.4.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
